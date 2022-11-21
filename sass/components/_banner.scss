@@ -1,0 +1,61 @@
+.main-banner__background {
+  background-color: #2f303a;
+  color: #ffffff;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+      rgba(47, 48, 54, 0.4),
+      rgba(47, 48, 54, 0.4)
+    ),
+    url(../images/teamimage.jpg);
+  background-size: cover;
+  max-width: 1600px;
+  background-position: center;
+}
+.main-banner__button {
+  display: flex;
+  padding-top: 30px;
+}
+.mark--links .main-banner__btn {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.mark--links .main-banner__btn:hover,
+.mark--links .main-banner__btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-banner__title {
+  max-width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06cm;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 200px;
+}
+.main-banner__btn {
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+}

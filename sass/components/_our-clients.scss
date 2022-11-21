@@ -1,0 +1,36 @@
+.our-clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.our-clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 30px;
+  justify-content: center;
+}
+.our-clients__list a {
+  height: 92px;
+  width: 170px;
+  display: flex;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: solid #afb1b8 1px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+  border-radius: 4px;
+}
+&__list a:hover,
+&__list a:focus {
+  display: flex;
+  text-align: center;
+  border: solid #2196f3 1px;
+  padding: 16px 32px;
+  fill: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+}

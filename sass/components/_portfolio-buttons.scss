@@ -1,0 +1,39 @@
+.portfolio__button-list {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.mark--links .portfolio__btn {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+&__btn:hover,
+&__btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__btn {
+  display: flex;
+  align-items: center;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 38px;
+  width: auto;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 22px;
+  box-shadow: none;
+}
