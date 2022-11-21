@@ -1,4 +1,8 @@
-.our-team__gray-background {
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 82px;
+}
+.our-team--gray-background {
   background-color: #f5f4fa;
 }
 .our-team__title {
@@ -57,8 +61,8 @@
   padding: 12px 12px;
   fill: #afb1b8;
 }
-&__socialmedia a:hover,
-&__socialmedia a:focus {
+.our-team__socialmedia a:hover,
+.our-team__socialmedia a:focus {
   height: 44px;
   width: 44px;
   display: flex;

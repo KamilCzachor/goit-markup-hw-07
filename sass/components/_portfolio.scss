@@ -1,3 +1,6 @@
+.portfolio {
+  display: flex;
+}
 .portfolio__card-list {
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +22,7 @@
   position: relative;
   overflow: hidden;
 }
-&__overlay:hover .portfolio__product-description {
+.portfolio__overlay:hover .portfolio__product-description {
   top: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

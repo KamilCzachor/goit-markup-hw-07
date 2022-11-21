@@ -12,8 +12,8 @@
   line-height: 1.71;
   display: flex;
 }
-&__contacts:hover,
-&__contacts:focus {
+.footer__contacts:hover,
+.footer__contacts:focus {
   color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -80,8 +80,8 @@
   margin-right: 10px;
   margin-top: 20px;
 }
-&__socialmedia a:hover,
-&__socialmedia a:focus {
+.footer__socialmedia a:hover,
+.footer__socialmedia a:focus {
   height: 44px;
   width: 44px;
   display: flex;
@@ -112,7 +112,7 @@
   border-radius: 4px;
   padding: 16px 16px;
 }
-&__newsletter-email-box:focus {
+.footer__newsletter-email-box:focus {
   outline: 1px solid #2196f3;
 }
 
@@ -154,8 +154,8 @@
 .footer__link {
   color: #ffffff;
 }
-&__link:hover,
-&__link:focus {
+.footer__link:hover,
+.footer__link:focus {
   color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

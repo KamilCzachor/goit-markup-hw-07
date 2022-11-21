@@ -1,13 +1,13 @@
+@import "../utils/backdrop";
 @import "../utils/base";
-@import "../utils/backdrop.scss";
 
 @import "../components/header-menu";
 @import "../components/banner";
-@import "../components/card-list.scss";
-@import "../components/what-we-do.scss";
-@import "../components/our-team.scss";
-@import "../components/our-clients.scss";
-@import "../components/footer.scss";
-@import "../components/modal.scss";
-@import "../components/portfolio-buttons.scss";
-@import "../components/portfolio.scss";
+@import "../components/card-list";
+@import "../components/what-we-do";
+@import "../components/our-team";
+@import "../components/our-clients";
+@import "../components/footer";
+@import "../components/modal";
+@import "../components/portfolio-buttons";
+@import "../components/portfolio";
